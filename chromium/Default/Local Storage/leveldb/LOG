@@ -1,8 +1,0 @@
-2025/09/04-00:32:21.335 4 Reusing MANIFEST /home/isaiah/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2025/09/04-00:32:21.338 4 Recovering log #145
-2025/09/04-00:32:21.339 4 Level-0 table #149: started
-2025/09/04-00:32:21.341 4 Level-0 table #149: 34492 bytes OK
-2025/09/04-00:32:21.343 4 Delete type=0 #145
-2025/09/04-00:39:44.685 5 Level-0 table #152: started
-2025/09/04-00:39:44.729 5 Level-0 table #152: 21141 bytes OK
-2025/09/04-00:39:44.733 5 Delete type=0 #150

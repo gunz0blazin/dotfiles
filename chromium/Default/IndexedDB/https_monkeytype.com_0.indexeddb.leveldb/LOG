@@ -1,7 +1,0 @@
-2025/09/01-21:54:18.461 2eeb5 Reusing MANIFEST /home/isaiah/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/09/01-21:54:18.461 2eeb5 Recovering log #29
-2025/09/01-21:54:18.461 2eeb5 Reusing old log /home/isaiah/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000029.log 
-2025/09/01-21:54:18.509 2eec9 Level-0 table #34: started
-2025/09/01-21:54:18.510 2eec9 Level-0 table #34: 8115 bytes OK
-2025/09/01-21:54:18.511 2eec9 Delete type=0 #29
-2025/09/01-21:54:18.511 2eeb3 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
