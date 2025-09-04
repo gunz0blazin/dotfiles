@@ -4,16 +4,15 @@ general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
 TERM = "xterm-256color"
 
 [font]
-normal = { family = "JetBrains Mono" }
-bold = { family = "JetBrains Mono" }
-italic = { family = "JetBrains Mono" }
+normal = { family = "CaskaydiaMono Nerd Font", style = "Regular" }
+bold = { family = "CaskaydiaMono Nerd Font", style = "Bold" }
+italic = { family = "CaskaydiaMono Nerd Font", style = "Italic" }
 size = 14
 
 [window]
 padding.x = 14
 padding.y = 14
 decorations = "None"
-opacity = 0.95
 
 [keyboard]
 bindings = [

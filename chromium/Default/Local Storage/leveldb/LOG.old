@@ -1,0 +1,24 @@
+2025/09/02-12:40:50.071 4 Reusing MANIFEST /home/isaiah/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/09/02-12:40:50.076 4 Recovering log #135
+2025/09/02-12:40:50.077 4 Reusing old log /home/isaiah/.config/chromium/Default/Local Storage/leveldb/000135.log 
+2025/09/02-13:34:58.495 5 Level-0 table #140: started
+2025/09/02-13:34:58.540 5 Level-0 table #140: 12082 bytes OK
+2025/09/02-13:34:58.544 5 Delete type=0 #135
+2025/09/03-00:53:26.516 5 Level-0 table #142: started
+2025/09/03-00:53:26.520 5 Level-0 table #142: 19952 bytes OK
+2025/09/03-00:53:26.522 5 Delete type=0 #139
+2025/09/03-01:50:55.240 5 Level-0 table #144: started
+2025/09/03-01:50:55.282 5 Level-0 table #144: 70469 bytes OK
+2025/09/03-01:50:55.287 5 Delete type=0 #141
+2025/09/03-02:04:37.014 5 Level-0 table #146: started
+2025/09/03-02:04:37.019 5 Level-0 table #146: 34136 bytes OK
+2025/09/03-02:04:37.020 5 Delete type=0 #143
+2025/09/03-02:04:37.021 5 Compacting 4@0 + 1@1 files
+2025/09/03-02:04:37.025 5 Generated table #147@0: 295 keys, 345835 bytes
+2025/09/03-02:04:37.025 5 Compacted 4@0 + 1@1 files => 345835 bytes
+2025/09/03-02:04:37.026 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/03-02:04:37.026 5 Delete type=2 #137
+2025/09/03-02:04:37.026 5 Delete type=2 #140
+2025/09/03-02:04:37.026 5 Delete type=2 #142
+2025/09/03-02:04:37.026 5 Delete type=2 #144
+2025/09/03-02:04:37.026 5 Delete type=2 #146

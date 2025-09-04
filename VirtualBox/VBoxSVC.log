@@ -1,0 +1,405 @@
+00:00:00.000152 main     VirtualBox XPCOM Server 7.2.0 r170228 linux.amd64 (Aug 14 2025 19:02:36) release log
+00:00:00.000153 main     Log opened 2025-09-01T17:37:08.202844000Z
+00:00:00.000154 main     Build Type: release
+00:00:00.000154 main     OS Product: Linux
+00:00:00.000155 main     OS Release: 6.16.4-arch1-1
+00:00:00.000155 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 28 Aug 2025 19:49:53 +0000
+00:00:00.000167 main     DMI Product Name: System Product Name
+00:00:00.000173 main     DMI Product Version: System Version
+00:00:00.000175 main     Firmware type: UEFI
+00:00:00.000220 main     Secure Boot: Disabled
+00:00:00.000237 main     Host RAM: 31219MB (30.4GB) total, 29642MB (28.9GB) available
+00:00:00.000238 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000238 main     Process ID: 3400
+00:00:00.000238 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.002796 main     IPC socket path: /tmp/.vbox-isaiah-ipc/ipcd
+00:00:00.006487 DCon01   VirtualBox: object creation starts
+00:00:00.006516 DCon01   Home directory: '/home/isaiah/.config/VirtualBox'
+00:00:00.006756 DCon01   Loading settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.008926 DCon01   Successfully initialised host USB using sysfs
+00:00:00.010918 DCon01   Failed to retrive disk info: getDiskName(/dev/mapper/root) --> root
+00:00:00.017229 DCon01   HostDnsMonitor: initializing
+00:00:00.017331 DCon01   NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.017335 DCon01   NAT: resolv.conf: ignoring "options edns0 trust-ad"
+00:00:00.017343 DCon01   HostDnsMonitor: updating information
+00:00:00.017348 DCon01   HostDnsMonitor: old information
+00:00:00.017350 DCon01     no server entries
+00:00:00.017353 DCon01     no domain set
+00:00:00.017355 DCon01     no search string entries
+00:00:00.017357 DCon01   HostDnsMonitor: new information
+00:00:00.017360 DCon01     server 1: 127.0.0.53
+00:00:00.017362 DCon01     domain: .
+00:00:00.017364 DCon01     search string 1: .
+00:00:00.018176 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.018229 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.018614 DCon01   Platform architecture set to 'x86'
+00:00:00.018880 DCon01   Loading settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:00:00.018947 DCon01   Platform architecture set to 'x86'
+00:00:00.019209 DCon01   VirtualBox: object created
+00:00:00.086713 DCon02   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.090796 DCon02   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:00:00.330981 DCon05   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.336919 DCon05   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:00:00.428752 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:00.680266 DCon05   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.694001 DCon05   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:00:04.374534 DCon05   Launched VM: 134236192 pid: 3447 (0xd77) frontend: GUI/Qt name: Fucking WIndows
+00:00:04.398816 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.595296 DCon06   Platform architecture set to 'x86'
+00:00:04.634443 DCon09   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.885609 DCon09   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:04.907592 DCon09   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.958164 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:04.985850 DCon02   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.078692 DCon02   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.079338 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.079992 DCon05   HostDnsMonitorProxy::GetDomainName: .
+00:00:05.080050 DCon05   HostDnsMonitorProxy::GetNameServers:
+00:00:05.080053 DCon05     name server 1: 127.0.0.53
+00:00:05.080111 DCon05   HostDnsMonitorProxy::GetSearchStrings:
+00:00:05.080113 DCon05     search string 1: .
+00:00:05.088650 DCon05   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.107392 DCon06   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:05.287338 DCon06   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.288821 DCon05   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:00:05.301839 DCon06   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:00:05.302304 DCon05   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:00:05.309848 DCon07   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:26.150282 DCon06   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:00:26.162283 DCon06   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:00:31.013011 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:31.264433 DCon07   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:31.276212 DCon07   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:00:34.268937 DCon11   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:00:34.290491 DCon11   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:00:34.302726 DCon13   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:34.582527 DCon13   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:00:34.596197 DCon13   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:00:34.605895 DCon08   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:35.066268 DCon08   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:35.079957 DCon08   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:00:37.506683 DCon05   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:00:37.526803 DCon05   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:00:37.536003 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:38.165607 DCon08   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:00:38.179287 DCon08   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:00:38.188548 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:39.481854 DCon13   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:00:39.501676 DCon13   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:00:39.501747 DCon14   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:39.503545 DCon14   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:00:39.512670 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:40.577393 DCon07   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:00:40.598731 DCon07   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:00:40.608210 DCon15   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:02:05.381005 DCon01   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:02:05.384199 DCon01   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:02:05.393849 DCon17   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:02:25.248399 DCon18   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:02:25.250646 DCon18   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:02:25.261409 DCon23   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:05:08.179729 DCon29   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:05:08.181626 DCon29   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:05:08.191089 DCon28   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:05:12.698498 DCon28   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:05:12.700426 DCon28   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:05:12.709712 DCon26   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:42.862201 DCon29   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:07:42.874274 DCon29   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:07:42.883672 DCon39   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:48.294911 DCon38   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:07:48.307102 DCon38   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:07:48.316633 DCon30   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:10:42.706409 DCon43   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:10:42.708606 DCon43   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:20:41.182002 DCon36   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:20:41.198074 DCon36   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:20:41.207955 DCon26   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:23:15.213661 DCon49   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:23:15.237088 DCon49   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:23:15.246408 DCon48   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:24:28.380865 DCon26   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:28.394935 DCon26   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:24:29.680552 DCon43   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:29.688728 DCon43   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:24:39.097196 DCon36   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:24:39.110933 DCon36   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:24:39.120513 DCon49   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:24:40.781529 DCon56   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:24:40.795326 DCon56   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:24:40.804529 DCon55   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:25:05.550764 DCon58   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:25:05.552977 DCon58   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:25:06.514918 DCon54   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:25:06.517489 DCon54   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:27:13.951538 DCon55   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:27:13.965521 DCon55   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:27:13.978640 DCon58   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:14.259568 DCon58   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:27:14.273393 DCon58   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:27:21.131517 DCon58   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:27:21.142189 DCon54   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:27:21.160972 DCon54   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:27:21.173440 DCon61   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:21.481195 DCon26   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:27:21.495125 DCon26   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:27:21.504147 DCon61   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:26.481847 DCon61   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:27:26.495713 DCon61   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:27:26.505318 DCon55   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:27.558100 DCon54   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:27:27.803893 DCon49   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:27:27.817842 DCon49   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:27:36.920419 DCon49   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:27:38.409974 DCon49   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:27:38.423871 DCon49   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:27:47.341771 DCon54   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:27:47.343698 DCon54   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:27:57.745887 DCon58   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:27:57.752677 DCon49   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:27:57.764943 DCon49   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:27:58.081866 DCon49   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:27:58.083966 DCon49   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:28:16.388219 DCon64   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:28:16.390550 DCon64   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:28:16.701965 DCon63   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:28:16.704118 DCon63   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:28:49.761565 DCon66   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:28:49.763825 DCon66   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:29:32.198810 DCon71   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:29:32.447189 DCon71   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:29:32.447820 DCon64   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:29:32.462876 DCon71   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:29:32.463492 DCon64   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:29:32.472838 DCon73   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:30:06.601101 DCon67   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:30:06.614430 DCon63   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:30:06.637928 DCon63   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:30:06.649413 DCon68   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:30:06.901245 DCon72   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:30:06.915260 DCon72   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:30:06.960297 DCon68   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:30:06.962307 DCon68   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:30:06.972521 DCon76   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:30:17.710335 DCon77   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:30:36.568678 DCon80   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:30:36.569179 DCon85   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:30:36.570583 DCon80   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:30:36.570720 DCon85   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:30:36.572635 DCon85   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:30:36.582740 DCon84   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:30:48.663941 DCon84   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:30:48.665630 DCon84   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:30:48.686375 DCon84   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:30:48.695802 DCon88   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:31:51.718187 DCon91   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:31:51.732309 DCon91   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:31:51.741883 DCon81   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:31:51.755650 DCon81   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:31:52.044985 DCon81   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:31:52.048105 DCon81   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:31:52.054854 DCon80   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:31:52.079572 DCon80   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:31:52.378905 DCon80   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:31:52.392808 DCon80   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:31:53.070217 DCon94   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:31:54.696627 DCon94   Launched VM: 3817953488 pid: 7890 (0x1ed2) frontend: GUI/Qt name: Fucking WIndows
+00:31:54.718274 DCon80   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:31:54.845677 DCon63   Platform architecture set to 'x86'
+00:31:54.853365 DCon88   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:31:55.104950 DCon88   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:31:55.125428 DCon88   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:31:55.176682 DCon96   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:31:55.202100 DCon85   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:31:55.303782 DCon85   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:31:55.304385 DCon85   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:31:55.305009 DCon85   HostDnsMonitorProxy::GetDomainName: .
+00:31:55.305061 DCon85   HostDnsMonitorProxy::GetNameServers:
+00:31:55.305064 DCon85     name server 1: 127.0.0.53
+00:31:55.305113 DCon85   HostDnsMonitorProxy::GetSearchStrings:
+00:31:55.305116 DCon85     search string 1: .
+00:31:55.313090 DCon96   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:31:55.334048 DCon88   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:31:55.501469 DCon96   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:31:55.515395 DCon96   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:31:58.874079 DCon80   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:31:58.877066 DCon80   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:31:59.647877 DCon96   Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:31:59.650472 DCon96   Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:32:59.659060 DCon96   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:32:59.671115 DCon96   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:32:59.680411 DCon99   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:33:37.182122 DCon85   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:33:37.184626 DCon85   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:33:37.198587 DCon99   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:33:38.489642 DCon100  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:33:38.491771 DCon100  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:34:41.295660 DCon104  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:34:41.324970 DCon104  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:35:03.752390 DCon106  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:35:03.772738 DCon106  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:35:09.549094 DCon85   Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:35:09.569746 DCon85   Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:35:09.574023 DCon102  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:35:09.576381 DCon102  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:35:19.385513 DCon106  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:35:19.414380 DCon106  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:35:19.416913 DCon106  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:35:19.419009 DCon106  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:35:21.072817 DCon104  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:35:21.102274 DCon104  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:35:21.104918 DCon109  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:35:21.107011 DCon109  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:37:33.290822 DCon118  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:37:33.374355 DCon118  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:37:33.379305 DCon118  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:37:33.394700 DCon115  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:37:33.493046 DCon115  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:37:33.522074 DCon115  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:37:33.522154 DCon112  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:37:33.524373 DCon112  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:37:33.538544 DCon117  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:37:35.825944 DCon111  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:37:35.838266 DCon117  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:37:35.872887 DCon117  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:37:35.875897 DCon117  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:37:35.881788 DCon115  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:37:35.918686 DCon115  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:37:36.190000 DCon115  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:37:36.204249 DCon115  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:37:36.897692 DCon106  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:37:39.740822 DCon116  Platform architecture set to 'x86'
+00:37:39.742689 DCon116  NvramStore: Loading 'TpmEmuTpms/permall' from archive
+00:37:39.742699 DCon116  NvramStore: Loading 'efi/nvram' from archive
+00:37:39.877029 DCon116  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:37:40.152772 DCon116  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:37:40.165263 DCon116  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:37:55.652654 DCon114  Platform architecture set to 'x86'
+00:37:55.675764 DCon114  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:37:55.695009 DCon114  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:37:55.736125 DCon121  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:37:55.994732 DCon121  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:37:56.008607 DCon121  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:38:04.051360 DCon121  Launched VM: 4227886576 pid: 15869 (0x3dfd) frontend: GUI/Qt name: Fucking WIndows
+00:38:04.075185 DCon115  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:38:04.215774 DCon123  Platform architecture set to 'x86'
+00:38:04.224400 DCon126  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:38:04.479451 DCon126  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:38:04.501263 DCon126  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:38:04.550651 DCon123  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:38:04.578988 DCon123  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:38:04.681201 DCon123  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:38:04.681955 DCon123  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:38:04.682649 DCon123  HostDnsMonitorProxy::GetDomainName: .
+00:38:04.682706 DCon123  HostDnsMonitorProxy::GetNameServers:
+00:38:04.682708 DCon123    name server 1: 127.0.0.53
+00:38:04.682764 DCon123  HostDnsMonitorProxy::GetSearchStrings:
+00:38:04.682766 DCon123    search string 1: .
+00:38:04.691739 DCon126  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:38:04.718309 DCon123  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:38:04.885315 DCon123  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:38:04.913887 DCon123  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:38:04.913998 DCon126  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:38:04.916074 DCon126  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:38:04.923302 DCon115  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:38:10.328599 DCon125  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:38:10.331017 DCon125  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:38:10.364988 DCon121  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:38:22.369059 DCon126  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:38:22.372028 DCon126  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:38:22.396247 DCon129  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:38:22.398285 DCon129  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:38:22.399103 DCon115  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:38:22.780376 DCon129  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:38:22.802378 DCon129  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:38:22.804808 DCon115  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:38:22.807009 DCon115  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:38:22.819573 DCon123  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:50:57.450032 DCon130  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:50:57.452349 DCon130  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:50:57.508428 DCon145  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:51:16.031367 DCon145  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+00:51:18.641967 DCon143  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:51:18.662217 DCon143  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:51:18.668394 DCon145  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Stopping)}, preserve=false aResultDetail=0
+00:51:18.674838 DCon145  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Stopping)}, preserve=false aResultDetail=0
+00:51:18.688064 DCon145  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:51:18.732211 DCon149  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:51:18.734729 DCon149  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:51:18.750226 DCon147  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:51:19.371908 DCon151  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:19.384263 DCon151  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:51:19.757240 DCon151  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:51:25.580753 DCon146  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:25.592974 DCon146  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:51:29.342063 DCon151  Platform architecture set to 'x86'
+00:51:29.342161 DCon151  Platform architecture set to 'x86'
+00:51:29.342169 DCon151  Platform architecture set to 'x86'
+00:51:29.666587 DCon130  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:29.674945 DCon130  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:51:38.941088 createClone ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Could not create the clone medium '/home/isaiah/VirtualBox VMs/Fucking WIndows Clone/Fucking WIndows Clone.vdi' (VERR_CANCELLED)}, preserve=false aResultDetail=-70
+00:51:38.949153 DCon130  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows Clone/Fucking WIndows Clone.vbox" with version "1.19-linux"
+00:51:38.971463 DCon130  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows Clone/Fucking WIndows Clone.vbox"
+00:51:38.971527 DCon130  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:38.973139 DCon130  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:51:38.978929 DCon130  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:38.980698 DCon130  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:51:38.988931 DCon151  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:51:38.995116 DCon151  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:51:43.820652 DCon151  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:43.832550 DCon151  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:51:43.842610 DCon151  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:43.844582 DCon151  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:51:43.855642 DCon130  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:51:47.980805 DCon130  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:47.993680 DCon130  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:52:03.774495 DCon144  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:52:03.791678 DCon144  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:52:05.134316 DCon146  Launched VM: 3825339376 pid: 16147 (0x3f13) frontend: GUI/Qt name: Fucking WIndows
+00:52:05.157823 DCon152  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:05.341164 DCon164  Platform architecture set to 'x86'
+00:52:05.359776 DCon144  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:05.613860 DCon144  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:52:05.646001 DCon144  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:52:05.657244 DCon144  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:52:05.659532 DCon144  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:52:05.665745 DCon130  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:05.690895 DCon164  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:52:05.718792 DCon164  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:52:05.811216 DCon164  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:52:05.811940 DCon164  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:52:05.812611 DCon164  HostDnsMonitorProxy::GetDomainName: .
+00:52:05.812662 DCon164  HostDnsMonitorProxy::GetNameServers:
+00:52:05.812664 DCon164    name server 1: 127.0.0.53
+00:52:05.812715 DCon164  HostDnsMonitorProxy::GetSearchStrings:
+00:52:05.812717 DCon164    search string 1: .
+00:52:05.821108 DCon191  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:52:05.839654 DCon146  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:52:06.050513 DCon146  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:52:06.063451 DCon146  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+00:52:26.655598 DCon146  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:52:26.675781 DCon146  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:52:26.687417 DCon227  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:53:00.155167 DCon225  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:53:00.175206 DCon225  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:53:00.187105 DCon164  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:59:28.882637 DCon234  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:59:28.884805 DCon234  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:59:28.888362 DCon230  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+00:59:28.890335 DCon230  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+00:59:28.904014 DCon237  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:03:01.681988 DCon230  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+01:03:03.957326 DCon239  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Stopping)}, preserve=false aResultDetail=0
+01:03:03.975437 DCon235  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+01:03:04.055190 DCon235  Saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox" with version "1.19-linux"
+01:03:04.057566 DCon235  Finished saving settings file "/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vbox"
+01:03:04.072484 DCon230  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+01:03:04.563856 DCon235  ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+01:03:04.881149 DCon235  Saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+01:03:04.893658 DCon235  Finished saving settings file "/home/isaiah/.config/VirtualBox/VirtualBox.xml"
+01:03:11.401974 main     VirtualBox: object deletion starts
+01:03:11.401992 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/isaiah/VirtualBox VMs/Fucking WIndows/Fucking WIndows.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:03:11.402286 main     HostDnsMonitor: shutting down ...
+01:03:11.406076 main     HostDnsMonitor: shut down
+01:03:11.420598 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:03:11.420637 main     VirtualBox: object deleted

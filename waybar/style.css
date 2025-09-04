@@ -8,7 +8,7 @@
   border-radius: 0;
   min-height: 0;
   font-family: CaskaydiaMono Nerd Font;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .modules-left {
@@ -36,9 +36,9 @@
 #network,
 #bluetooth,
 #pulseaudio,
-#clock,
-#custom-omarchy {
-  min-width: 12px;
+#custom-omarchy,
+#custom-update {
+  min-width: 16px;
   margin: 0 7.5px;
 }
 
@@ -48,4 +48,16 @@
 
 tooltip {
   padding: 2px;
+}
+
+#custom-update {
+  font-size: 16px;
+}
+
+#clock {
+  margin-left: 8.75px;
+}
+
+.hidden {
+  opacity: 0;
 }
